@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#navbar{
+    height:60px;
+    padding-top: 2%;
+}
+
+#logo{
+    color:black;
+    font-size:25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a{
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+#main{
+    text-align: center;
+    padding:10% ;
+    height: 70%;
+}
+
+
+p{
+    color: white;
+    padding-left: 45%;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 20px;
+    padding-top: 2%;
+    text-align: left;
+    
+}
+
+
+
+.content>h1{
+    text-align: left;
+    color:white;
+    font-size: 72px; 
+    font-family:"Changa One";
+    letter-spacing: 4px;
+    padding-top: 45%;
+
+}
+
+button{
+  background-color: white; /* Green */
+  border: none;
+  color: BLACK;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-left: 3%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1rem;
+}
+
+
+.button1:hover {
+    background-color: gainsboro;
+    color: white;
+}
+
+
+.container{
+    background-color: black;
+    height: 90%;
+    width:100%;
+    display: flex;
+    position: relative;
+    
+    
+}
+
+.imgWrapper{
+    position: relative;
+    background-color: white;
+    height: 90%;
+ margin-inline: 2.5%;
+ padding: 2.5%;
+display: flex;
+flex-direction: column;
+ align-items: center;
+
+transform: translateY(-25%);
+
+}
+
+.imgWrapper .img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgWrapper p{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    color: black;
+    font-family: Roboto,sans-serif;
+    font-size: 24px;
+}
+
+footer{
+    background-color: #333333;
+   padding-bottom: 2%;
+}
+
+footer>p{
+    text-align: center;
+    padding-left: 0%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+@media only screen and (min-width: 768px){
+
+    .content>h1{
+       padding-top: 0%;
+        padding-left: 45%;
+    }
+    
+
+}
